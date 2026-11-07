@@ -1,0 +1,6 @@
+services:
+    - type: web
+    name: arx-spawn-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
